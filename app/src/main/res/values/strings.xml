@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Which fuel to use?</string>
+    <string name="gasoline_TextView">Gasoline price per Liter</string>
+    <string name="ethanol_TextView">Ethanol price per Liter</string>
+    <string name="chosenTextView">It\'s better to choose...</string>
+    <string name="decisionGas_text">Gasoline!</string>
+    <string name="fuel_description">A fuel illustration image</string>
+    <string name="decisionEthanol_text">Ethanol!</string>
+</resources>

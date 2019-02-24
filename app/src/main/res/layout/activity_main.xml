@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gasolineTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/gasoline_TextView"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/gasPriceLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="3.99"
+        android:textColor="@color/text_color" />
+
+    <SeekBar
+        android:id="@+id/gasolineSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:max="1000"
+        android:progress="399" />
+
+    <TextView
+        android:id="@+id/ethanolTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/ethanol_TextView"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/ethanolPriceLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="3.00"
+        android:textColor="@color/text_color" />
+
+    <SeekBar
+        android:id="@+id/ethanolSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:max="1000"
+        android:progress="300" />
+
+    <TextView
+        android:id="@+id/chosenTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/text_color"
+        tools:text="@string/chosenTextView" />
+
+    <TextView
+        android:id="@+id/decisionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/decisionGas_text"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/decision_textsize" />
+
+    <ImageView
+        android:id="@+id/fuelImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:contentDescription="@string/fuel_description"
+        app:srcCompat="@drawable/gasoline" />
+</LinearLayout>
